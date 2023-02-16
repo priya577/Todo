@@ -1,0 +1,252 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample2 {
+    width: 80px;
+    background-color: blue;
+  }
+  
+  /* TODO: Add CSS for the rest of your solution below */
+ 
+  .wrapper2 {
+    display: flex;
+    height: 60px;
+    background-color:red;
+    padding-left: 100px;
+    /*margin-bottom: 10px;*/
+  } .b1Example1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  .blueExample3 {
+    width:1200px;
+    height: 4px;
+    padding: 28px;
+    background-color:green;
+  }
+ /* .e1Example {
+    margin-left: 1271px;
+    margin-right: 50px;
+    margin-bottom: 5000px;
+    margin-top: 1px;
+      width:91px;
+      height: 31px;
+      background-color:blue;
+   }*/
+   .e3Example {
+      width:91px;
+      height: 32px;padding-bottom: 28px;
+      background-color:blue;
+   }
+  /*.e3Example{
+    width:20px;
+    height: 3px;
+    padding: 20px;
+    background-color:blue;
+  }*/
+  
+   /*row4*/
+  .b1Example2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    background-color: red;
+  }
+  .blueExample4{
+    width: 90px;
+    background-color: blue;
+  }
+  .e1Example1{
+    width: 80px;
+    background-color: blue;
+  }
+   /*row5*/
+  .b1Example3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  .blueExample5{
+    width: 700px;
+    height: 5px;
+    background-color: green;
+  }
+  .e1Example2{
+    width: 80px;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .e2Example{
+    width:20px;
+    height: 3px;
+    padding: 20px;
+    background-color:red;
+  }
+
+  
+
+  /*row6*/
+  .b1Example4 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    background-color: red;
+  }
+  
+  .blueExample6{
+    width: 800px;
+    height: 5px;
+  }
+  .e1Example3{
+    width:30px;
+    height: 5px;
+    padding: 28px;
+    background-color: blue;
+  }
+
+   /*row7*/
+   .wrapper1 {
+    display: flex;
+    height: 65px;
+    background-color:blue;
+    margin-bottom: 20px;
+  }
+  .b1Example5 {
+    /*display: flex;
+    flex: 1;
+    flex-direction: row-reverse;*/
+    width:100px;
+    height: 5px;
+    padding: 30px;
+    background-color:red;
+    margin-right: 200px;
+  }
+  .blueExample7{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    width:1268px;
+    height: 4px;
+    padding: 6px;
+    margin-bottom: 300px;
+    background-color:green;
+    margin-left: 130px;
+  }
+  .b2Example5 {
+    width:100px;
+    height: 5px;
+    padding: 30px;
+    background-color:red;
+    padding-left: 300px;
+  }
+
+
+  /*row8*/
+  .wrapper3 {
+    display: flex;
+    height: 65px;
+    background-color:orange;
+    margin-bottom: 20px;
+  }
+  .b1Example6 {
+    margin-left: 400px;
+    width: 25px;
+    height: 65px;
+    background-color: green;
+  }
+  .e1Example4{
+    margin-left: 200px;
+    width: 25px;
+    height: 65px;
+    background-color: green;
+  }
+  .e-1Example4{
+    margin-left: 200px;
+    width: 25px;
+    height: 65px;
+    background-color: green;
+  }
+  .e-2Example4{
+    margin-left: 200px;
+    width: 25px;
+    height: 65px;
+    background-color: green;
+  }
+  
+  
+
+   /*row9*/
+   .wrapper4 {
+    display: flex;
+    height: 65px;
+    background-color:orange;
+    margin-bottom: 20px;
+  }
+   .b1Example7{
+    margin-left: 400px;
+    width: 35px;
+    height: 65px;
+    background-color: green;
+  }
+  
+  .blueExample8{
+    margin-left: 200px;
+    width: 35px;
+    height: 65px;
+    background-color: green;
+  }
+  .e1Example5{
+    margin-left: 200px;
+    width: 35px;
+    height: 65px;
+    background-color: green;
+  }
+  .e1Example6{
+    margin-left: 200px;
+    width: 35px;
+    height: 65px;
+    background-color: green;
+  }
+  .e1Example7{
+    margin-left: 200px;
+    width: 35px;
+    height: 65px;
+    background-color: green;
+  }
+  
